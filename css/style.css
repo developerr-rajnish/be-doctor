@@ -12,6 +12,10 @@
   box-sizing: border-box;
   font-family: var(--primary-font);
 }
+.padding{  
+  padding-top: 60px;
+  padding-bottom: 60px; 
+}
 .container {
   padding: 0 15px !important;
 }
@@ -25,7 +29,7 @@ a {
   margin: 0 24px;
 }
 
-/* header starts */
+/* header starts */ 
 .header .logo {
   width: 97%;
 }
@@ -165,3 +169,39 @@ h2 span {
 }
 /* banner ends */
 
+/* profile-sec starts */
+h4{
+  font-size: 2.8rem;
+  font-weight: 700;  
+  line-height: 36px;   
+  color: var(--secondary-col); 
+}  
+.span{
+  font-size: 2rem;
+    font-weight: 400;
+    color: var(--secondary-col);
+    line-height: 28px;
+    position: relative;
+    padding-left: 95px 
+}
+.span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 13px;
+  width: 70px;
+  height: 2px;
+  background-color: var(--primary-col);
+}
+
+@media (max-width: 767px){
+  h4{
+    font-size: 1.7rem;
+    line-height: 22px;    
+  }
+  .span{
+    font-size: 1.5rem;
+    line-height: 22px; 
+  }
+}
+/* profile-sec ends */
