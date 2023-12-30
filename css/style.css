@@ -25,7 +25,9 @@ html {
 a {
   text-decoration: none;
 }
-.custom-margin {
+.custom-margin,
+.banner-custom-margin {     
+  border-radius: 24px;
   margin: 0 24px;
 }
 
@@ -98,7 +100,7 @@ a {
   .header .icon1 {
     width: 80%;
   }
-  .custom-margin {
+  .banner-custom-margin {  
     margin: 0;
   }
   .header .logo {
@@ -110,14 +112,13 @@ a {
 }
 /* header ends */
 
-/* banner starts */
+/* banner starts */ 
 .banner {
   background-image: url(../images/bedoctor-section-bg1.webp);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-top: 90px;
-  border-radius: 24px;
+  padding-top: 90px; 
 }
 h5 {
   font-size: 1.4rem;
@@ -169,7 +170,7 @@ h2 span {
 }
 /* banner ends */
 
-/* profile-sec starts */
+/* profile-sec starts */ 
 h4{
   font-size: 2.8rem;
   font-weight: 700;  
@@ -205,3 +206,44 @@ h4{
   }
 }
 /* profile-sec ends */
+
+/* our-services starts */
+.our-services{
+  background-image: url(../images/bedoctor-section-bg2.webp); 
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+h3{
+  font-size: 5rem;
+  line-height: 58px;
+  font-weight: 700;  
+  color: var(--secondary-col);  
+}
+p{ 
+  font-size: 1.6rem;
+  line-height: 24px;
+  font-weight: 400;     
+  color: var(--secondary-col);  
+}
+.para{
+  width: 40%; 
+}
+.our-services .card{ 
+  border-radius: 24px; 
+}         
+
+@media (max-width: 991px){
+  h3{
+    font-size: 3rem;
+    line-height: 35px; 
+  }
+  p{ 
+    font-size: 1.3rem;
+    line-height: 19px;
+  }
+  .para {
+    width: 82%;
+} 
+}
+/* our-services ends */
