@@ -118,7 +118,7 @@ a {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-top: 90px; 
+  padding-top: 90px;  
 }
 h5 {
   font-size: 1.4rem;
@@ -247,3 +247,88 @@ p{
 } 
 }
 /* our-services ends */
+
+/* experience-sec starts */
+.experience-sec{
+  background-image: url(../images/bedoctor-section-bg3.webp); 
+  background-attachment: fixed; 
+  background-size: cover;
+  background-position: top center; 
+  background-repeat: no-repeat; 
+}
+h6{
+  font-size: 2rem;
+  line-height: 28px;
+  font-weight: 500;       
+}
+.experience-sec .custom-padding{
+  padding-top: 150px; 
+}
+
+@media (max-width: 767px){ 
+  h6{
+    font-size: 1.3rem;
+    line-height: 19px;  
+  }
+  .experience-sec .custom-padding{
+    padding-top: 70px;  
+  }
+}
+/* experience-sec ends */
+
+/* book appointment starts */
+.left-side-img{                        
+  background-image: url(../images/bedoctor-about-pic3.webp); 
+  background-size: cover;
+  background-position: top center; 
+  background-repeat: no-repeat;   
+  height: 588px;  
+  border-radius: 24px;
+} 
+.right-side-content{
+  background-image: url(../images/bedoctor-wrap-bg1.webp); 
+  background-size: cover;
+  background-position: top center; 
+  background-repeat: no-repeat;  
+  border-radius: 24px;
+}
+.pin-icon{
+  width: 100px;
+  height: 100px;
+  background: var(--white-col); 
+  border-radius: 50%; 
+}
+.pin-icon img{ 
+  transform: translateY(50%);  
+}
+.custom-h3{
+  font-size: 3.8rem;
+  line-height: 46px;     
+  font-weight: 700;
+}
+
+@media (max-width:991px){
+  .custom-h3{
+    width: 85% !important;
+  }
+}
+@media (max-width: 767px){ 
+  .left-side-img{                        
+    height: 309px;   
+  }
+  .custom-h3{
+    font-size: 2.3rem;
+    line-height: 28px;   
+  }
+  .book-appointment.padding  { 
+    padding: 43px 0;    
+  }
+  .book-appointment .padding{
+    padding: 30px 0;   
+  }
+ .left-side-img,   
+  .right-side-content{
+    margin: 0 17px;   
+  }  
+}
+/* book appointment ends */ 
