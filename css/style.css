@@ -25,7 +25,7 @@ html {
 a {
   text-decoration: none;
 }
-.custom-margin,
+.custom-margin, 
 .banner-custom-margin {     
   border-radius: 24px;
   margin: 0 24px;
@@ -332,3 +332,69 @@ h6{
   }  
 }
 /* book appointment ends */ 
+
+/* pricing-sec starts */
+.pricing-sec{
+  background-color: #F2F6FA;      
+}
+.pricing-box{
+  border-radius: 24px;  
+  padding-left: 15%;
+  padding-right: 15%;   
+}
+.pricing-box-third{
+  background-color: var(--primary-col); 
+}
+.pricing-box h5{
+  color: var(--secondary-col);  
+}
+.pricing-box .borderP{  
+  border-top: 1px solid rgba(0,0,0,0.1);      
+  border-bottom: 1px solid rgba(0,0,0,0.1); 
+}
+.price{
+  position: relative;
+  width: 100px; 
+} 
+sup{
+  font-weight: 400;     
+  color: var(--secondary-col);
+  position: absolute; 
+  top: 13px;    
+}
+.currency{         
+  font-size: 2rem;
+  left: 11px;  
+}
+.period{   
+  font-size: 1.5rem;  
+  right: 0px; 
+}          
+.price-btn:hover{
+  border-color: var(--white-col) !important; 
+  background: transparent; 
+  color: white; 
+}
+
+@media (max-width: 767px){
+  .price{
+    position: relative;
+    width: 93px !important;     
+  } 
+  sup{
+    top: 9px;       
+  }
+  .currency{         
+    font-size: 1.4rem;
+  }
+  .period{   
+    font-size: 1.3rem;   
+  }
+  .pricing-box h3{
+    font-size: 3.8rem;   
+  }
+  .pricing-box h5{
+    font-size: 1.4rem; 
+  }
+}
+/* pricing-sec ends */
