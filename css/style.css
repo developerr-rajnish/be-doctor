@@ -563,23 +563,23 @@ main .service-banner-padding{
   background-image: inherit !important;
   background-color: var(--white-col);   
 }
-.services-img{
-  background-image: url(../images/bedoctor-services-pic1.webp);   
+.services-img{ 
+  background-image: url(/images/bedoctor-services-pic1.webp);       
 }
 .services-img-second{
-  background-image: url(../images/bedoctor-services-pic2.webp);   
+  background-image: url(/images/bedoctor-services-pic2.webp);   
 }
 .services-img-third{
-  background-image: url(../images/bedoctor-services-pic3.webp);   
+  background-image: url(/images/bedoctor-services-pic3.webp);   
 }
 .services-img-fourth{ 
-  background-image: url(../images/bedoctor-services-pic4.webp);    
+  background-image: url(/images/bedoctor-services-pic4.webp);    
 }
 .services-img-fifth{  
-  background-image: url(../images/bedoctor-services-pic5.webp);    
+  background-image: url(/images/bedoctor-services-pic5.webp);    
 }
 .services-img-sixth{  
-  background-image: url(../images/bedoctor-services-pic6.webp);    
+  background-image: url(/images/bedoctor-services-pic6.webp);     
 }
 
 @media (max-width: 991px){              
