@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
 
 :root {
-  --primary-font: "Plus Jakarta Sans", sans-serif;
+  --primary-font: "Plus Jakarta Sans", sans-serif; 
   --primary-col: #2b6cf5;
   --secondary-col: #204289;
   --white-col: #fff;
@@ -55,10 +55,15 @@ a {
   border-radius: 38px;
   padding: 12px 35px;
 }
-.header .nav-item .active {
+.header .nav-item .nav-link:hover{
+  color: var(--white-col);
+  background-color: var(--primary-col); 
+}
+.header .nav-item .active,
+.header .nav-item .nav-link:hover {         
   color: var(--white-col);
   background-color: var(--primary-col);
-}
+} 
 .header .nav-contact span {
   font-size: 1.6rem;
   font-weight: 600;
@@ -95,6 +100,10 @@ a {
     color: var(--primary-col);
     background-color: transparent;
   }
+  .header .nav-item .nav-link:hover {         
+    color: var(--primary-col);    
+    background-color: transparent; 
+  }
 }
 @media (max-width: 767px) {
   .header .icon1 {
@@ -102,7 +111,7 @@ a {
   }
   .banner-custom-margin {  
     margin: 0;
-  }
+  } 
   .header .logo {
     width: 75%;
   }
@@ -138,7 +147,7 @@ h2 span {
 .btn {
   background-color: var(--primary-col);
   border-radius: 38px;
-  padding: 12px 30px;
+  padding: 12px 30px;       
   font-size: 1.5rem;
   font-weight: 600;
   border: 0;
@@ -281,7 +290,7 @@ h6{
 /* experience-sec ends */
 
 /* book appointment starts */
-.left-side-img{                        
+.box-img{                        
   background-image: url(../images/bedoctor-about-pic3.webp); 
   background-size: cover;
   background-position: top center; 
@@ -289,7 +298,7 @@ h6{
   height: 588px;  
   border-radius: 24px;
 } 
-.right-side-content{
+.box-content{       
   background-image: url(../images/bedoctor-wrap-bg1.webp); 
   background-size: cover;
   background-position: top center; 
@@ -317,8 +326,8 @@ h6{
   }
 }
 @media (max-width: 767px){ 
-  .left-side-img{                        
-    height: 309px;   
+  .box-img{                                 
+    height: 350px;     
   }
   .custom-h3{
     font-size: 2.3rem;
@@ -330,11 +339,11 @@ h6{
   .book-appointment .padding{
     padding: 30px 0;   
   }
- .left-side-img,   
-  .right-side-content{
+ .box-img,   
+  .box-content{ 
     margin: 0 17px;   
   }  
-}
+}                                  
 /* book appointment ends */ 
 
 /* pricing-sec starts */
@@ -517,3 +526,95 @@ footer h3{
   }     
 }
 /* footer ends */      
+
+/*--------------------------------------- services page css ----------------------------------------*/
+
+/* main starts */
+main{ 
+  background-color: #F2F6FA;  
+}
+main .service-banner-padding{
+  padding-top: 200px;
+  padding-bottom: 200px;  
+}
+.new-btn{
+  padding: 12px 35px;          
+}
+.sec-text i{
+  background-color: #EEF3FF;   
+  color: var(--primary-col);         
+  width: 36px;
+  height: 36px; 
+  font-size: 1.5rem;                
+  border-radius: 50%;   
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.book-visit{
+  border-top: 1px solid #EAEAEA;    
+  padding-top: 45px;   
+}
+.book-visit .phone{
+  font-size: 16px;
+  font-weight: 400;               
+}
+.services-contant{
+  background-image: inherit !important;
+  background-color: var(--white-col);   
+}
+.services-img{
+  background-image: url(../images/bedoctor-services-pic1.webp);   
+}
+.services-img-second{
+  background-image: url(../images/bedoctor-services-pic2.webp);   
+}
+.services-img-third{
+  background-image: url(../images/bedoctor-services-pic3.webp);   
+}
+.services-img-fourth{ 
+  background-image: url(../images/bedoctor-services-pic4.webp);    
+}
+.services-img-fifth{  
+  background-image: url(../images/bedoctor-services-pic5.webp);    
+}
+.services-img-sixth{  
+  background-image: url(../images/bedoctor-services-pic6.webp);    
+}
+
+@media (max-width: 991px){              
+  main .service-banner-padding {
+    padding-top: 110px;
+    padding-bottom: 85px;
+}   
+.Services-p {
+  width: 75% !important; 
+} 
+.services-img{  
+ height: 440px;          
+}
+}
+@media (max-width: 767px){   
+  main .service-banner-padding {    
+    padding-top: 95px;
+    padding-bottom: 65px;   
+}   
+.Services-p {
+  width: 100% !important;
+}
+.services-img{  
+  height: 220px;            
+}    
+.book-visit{           
+  padding-top: 30px;   
+}     
+.box-content-size{
+  width: 82% !important; 
+}                              
+.box-content.padding {
+  padding-top: 30px;
+  padding-bottom: 30px;  
+}
+} 
+/* main ends */ 
+
