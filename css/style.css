@@ -29,7 +29,7 @@ a {
 .custom-margin, 
 .banner-custom-margin {     
   border-radius: 24px;
-  margin: 0 24px;                                        
+  margin: 0 24px;                                                 
 }
 
 /* header starts */ 
@@ -464,7 +464,7 @@ sup{
   background-attachment: fixed; 
   background-size: cover;
   background-position: top center; 
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;           
   height: 65vh;          
 }
 
@@ -530,8 +530,8 @@ footer h3{
 
 /*--------------------------------------- services page css ----------------------------------------*/
 
-/* main starts */         
-main{ 
+/* main starts */               
+main{  
   background-color: #F2F6FA;  
 }
 main .service-banner-padding{
@@ -629,3 +629,49 @@ main .service-banner-padding{
 } 
 /* main ends */ 
 
+/*--------------------------------------- about page css ----------------------------------------*/
+
+/* about-banner starts */ 
+.about-banner{
+  background-color: transparent;
+  background-image: url(../images/bedoctor-section-bg5.webp); 
+  background-size: cover;           
+  background-position: center; 
+  background-repeat: no-repeat;          
+  padding-top: 200px;                                                   
+}
+.top-logo-img{
+  width: 300px; 
+}
+.about-box{
+  border-radius: 24px;
+  padding: 48px;    
+  transition: all 0.2s ease-in-out;                          
+}
+.about-box:hover{
+  transform: translateY(-10px); 
+}
+
+@media (max-width: 991px){  
+  .about-banner{                     
+    padding-top: 100px;                                                   
+  }         
+  .about-box{
+    padding: 24px;                            
+  }
+  .about-profile-h3{
+    width: 100% !important; 
+  }
+}
+@media (max-width: 767px){       
+  .about-banner .padding{
+    padding-bottom: 35px; 
+  }
+  .about-profile{
+    margin: 0 24px; 
+  }
+  .about-profile.padding{
+    padding-top: 30px; 
+  }
+}
+/* about-banner ends */           
