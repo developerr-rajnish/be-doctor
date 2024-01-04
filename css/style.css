@@ -95,7 +95,7 @@ a {
     text-align: center;
   }
   .header .nav-item .nav-link {
-    padding: 10px 32px;
+    padding: 10px 32px;    
   }
   .header .nav-item .active {
     color: var(--primary-col);
@@ -218,7 +218,7 @@ h4{
     margin: 0 24px; 
   }    
   .profile-image{
-    width: 82% !important; 
+    width: 82% !important;          
   } 
 }
 /* profile-sec ends */
@@ -457,7 +457,10 @@ sup{
   } 
  .rating{
     margin: 0 24px;       
-  }  
+  }
+  .rating-p{
+    width: 100% !important; 
+  } 
 } 
 /* rating sec ends  */   
 
