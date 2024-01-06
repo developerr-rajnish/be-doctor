@@ -3,7 +3,7 @@
 :root {
   --primary-font: "Plus Jakarta Sans", sans-serif; 
   --primary-col: #2b6cf5;
-  --secondary-col: #204289;
+  --secondary-col: #204289;           
   --white-col: #fff;
 }
 * {
@@ -112,7 +112,7 @@ a {
   }
   .banner-custom-margin {  
     margin: 0;
-  } 
+  }  
   .header .logo {
     width: 75%;
   }
@@ -459,7 +459,7 @@ sup{
     margin: 0 24px;       
   }
   .rating-p{
-    width: 100% !important; 
+    width: 100% !important;             
   } 
 } 
 /* rating sec ends  */   
@@ -540,7 +540,7 @@ footer h3{
 main{  
   background-color: #F2F6FA;  
 }
-main .service-banner-padding{
+main .service-banner-padding{     
   padding-top: 200px;
   padding-bottom: 200px;  
 }
@@ -635,10 +635,10 @@ main .service-banner-padding{
 } 
 /* main ends */ 
 
-/*--------------------------------------- about page css ----------------------------------------*/
+/*--------------------------------------- about page css ----------------------------------------*/ 
 
 /* about-banner starts */ 
-.about-banner{
+.about-banner{ 
   background-color: transparent;
   background-image: url(../images/bedoctor-section-bg5.webp); 
   background-size: cover;           
@@ -680,4 +680,121 @@ main .service-banner-padding{
     padding-top: 30px; 
   }
 }
-/* about-banner ends */           
+/* about-banner ends */                  
+
+/*--------------------------------------- packages page css ----------------------------------------*/
+
+/* questions-sec starts */    
+.questions-sec{
+  background-color: #F7FAFD;         
+}    
+.accordion {
+  --bs-accordion-btn-icon-width: 2.3rem; 
+}                                               
+.accordion-item{      
+  border: 0;                                          
+  border-radius: 24px !important;  
+}  
+.accordion-item h6{                        
+  padding: 24px;          
+}   
+.accordion-item p{ 
+  padding: 15px 20px 20px;         
+}        
+.accordion-body{
+  border-top: 1px solid rgba(0,0,0,.08);                   
+}
+.accordion-button {                                     
+  color: inherit !important;
+  background-color: var(--white-col) !important;    
+}    
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {     
+  box-shadow: inherit !important;         
+}                                
+.accordion-button::after {                                   
+  order: -1; 
+  margin-left: 20px;                               
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='204289' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E");
+} 
+.accordion-button:not(.collapsed)::after { 
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='204289' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+}   
+/* questions-sec ends */  
+
+.dont-wait-mt{
+  margin-top: 60px;
+}
+@media (max-width: 991px){  
+  .dont-wait-mt{
+    margin-top: 40px;  
+  }
+  .packages-banner-img{
+    width: 90% !important;     
+  }
+}
+@media (max-width: 767px){
+  .questions-sec.padding{
+    padding-top: 30px;
+    padding-bottom: 30px;       
+  }
+}
+
+/*--------------------------------------- contact page css ----------------------------------------*/
+
+.num:hover, .email:hover{                     
+  color: var(--primary-col);       
+}
+.myform{                            
+  background-color: #ffff;                     
+  padding: 48px;  
+  border-radius: 24px; 
+}          
+.myform ::placeholder{
+  color: #5C6F84;               
+}                                            
+.myform .input-padding, #Textarea{    
+  color: var(--primary-col);      
+  font-size: 1.5rem; 
+  font-weight: 400; 
+  padding: 10px;    
+  border: 1px solid  #EBEBEB !important;          
+  background-color: rgba(247,250,253,1); 
+}
+.myform .mylabel{
+  color: var(--secondary-col);  
+  font-size: 1.6rem;            
+  line-height: 24px;    
+  font-size: 400;      
+}  
+.myform .check{   
+  color: var(--secondary-col);   
+  font-size: 1.4rem;  
+  border-radius: 2px !important;
+  border-color: #5C6F84;       
+} 
+.myform h3 span {
+  color: var(--primary-col);  
+}
+.form-check-input:focus {
+  box-shadow: inherit;           
+} 
+.form-check-input:checked { 
+  border: 0;
+}                     
+.form-control:focus {
+  box-shadow: inherit !important;      
+}                 
+
+@media (max-width: 767px) {
+  .myform{                                       
+    padding: 24px;  
+  }   
+  .contact{
+    border-radius: 0;        
+  }    
+  .contact .padding{
+    padding: 30px 0;       
+  } 
+}
+
