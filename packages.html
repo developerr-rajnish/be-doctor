@@ -1,319 +1,549 @@
-<!DOCTYPE html>                    
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- required meta tag -->           
+    <!-- required meta tag -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- title -->
-    <title>Be Doctor</title> 
+    <title>Be Doctor</title>
     <!-- fav icon -->
-    <link rel="icon" type="image/x-icon" href="images/bedoctor.png" />       
-    <!-- bootstrap css   --> 
-    <link rel="stylesheet" href="css/bootstrap.min.css">     
+    <link rel="icon" type="image/x-icon" href="images/bedoctor.png" />
+    <!-- bootstrap css   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- aos css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- bootstrap icon cdn -->  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- bootstrap icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />        
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-   <!-- header starts -->   
-   <header class="header fixed-top bg-white shadow-sm">    
-    <nav class="navbar navbar-expand-lg custom-margin">         
-     <div class="container">                       
-       <a class="navbar-brand" href="#"><img class="logo" src="images/bedoctor.svg" alt="logo"></a>    
-       <button class="navbar-toggler toggle-btn me-auto border-0 p-0 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>    
-       </button>    
-       
-       <div class="nav-contact d-flex align-items-center justify-content-between ms-3 order-lg-1">                  
-       <a class="d-flex align-items-center" href="#"><img class="icon1" src="images/bedoctor-header-icon1.svg" alt="icon1"> <span class="d-none d-xl-block ms-3">+61 (0) 3 8376 6284</span> <span class="d-none d-md-block d-lg-block d-xl-none ms-3">Call&nbsp;us</span></a> 
-        <div class="icon2 ms-4 ms-md-5">
-         <a href="#"><img class="w-100" src="images/bedoctor-header-icon2.svg" alt="icon2"></a>
-       </div>       
-       </div>     
-     
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">         
-         <ul class="navbar-nav my-navbar mt-4 mt-md-0 mx-auto flex-lg-wrap justify-content-lg-center">                                                             
-           <li class="nav-item"> 
-             <a class="nav-link" href="index.html">Home</a>    
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="services.html">Services</a>     
-           </li> 
-           <li class="nav-item">
-             <a class="nav-link" href="about.html">About</a>  
-           </li> 
-           <li class="nav-item">
-             <a class="nav-link active" aria-current="page" href="packages.html">Packages</a>   
-           </li> 
-           <li class="nav-item me-0"> 
-             <a class="nav-link" href="contact.html">Contact</a>     
-           </li>          
-         </ul>
-       </div>
-     </div>     
-   </nav>     
- </header>  
- <!-- header ends -->    
-
-    <!-- packages-banner starts -->                       
-    <main class="banner-custom-margin about-banner packages-banner">                        
-        <div class="container">                           
-            <div class="row align-items-center mobile-custom-margin">        
-                <div class="col-md-6">   
-                    <h5 class="mb-0">BEDOCTOR</h5>  
-                    <h2 class="pt-4 pb-3 pb-md-4 pb-lg-5">Health Packages</h2>                             
-                    <h6>Vulputate fringilla in gravida hendrerit quis sed ultrices. Risus in vestibulum turpis velit. Varius id consequat consectetur odio elementum elit enim elit.</h6>
-                    <a href="#medicalPlan"><button type="button" class="btn s-btn new-btn mt-4 mb-4 mb-md-0 mt-md-5 btn-primary">Select a package <i class="fa-solid fa-angle-down ps-4 fs-6"></i></button></a>    
-                </div>              
-                
-                <div class="col-md-6 text-center text-md-end mt-5 mt-md-0">          
-                    <img class="w-75 mx-auto packages-banner-img" src="images/bedoctor-packages-pic1.webp" alt="img">           
-                </div>
-            </div>                           
-            
-            <div id="medicalPlan" class="row padding mt-md-5 mobile-custom-margin mt-4 mt-md-0">   
-                <div class="col-md-4 text-center">         
-                  <div class="pricing-box bg-white padding">    
-                    <img src="images/bedoctor-pricing-icon1.svg" alt="icon">             
-                    <h5 class="py-4">BASIC</h5>      
-                    <h3 class="price custom-h3 mx-auto"><sup class="currency">$</sup> 39 <sup class="period">mo</sup></h3>
-                  <div  class="py-5">   
-                    <p>Consultation with doctor</p>
-                    <p class="borderP py-3">Laboratory and diagnostic tests</p> 
-                    <p>Two home visits a year</p>
-                  </div>     
-                    <a href="#"><button type="button" class="btn mt-2 btn-primary">Choose</button></a> 
-                  </div>
-                </div>
-      
-                <div class="col-md-4 text-center pt-5 pt-md-0">          
-                  <div class="pricing-box bg-white padding">    
-                    <img src="images/bedoctor-pricing-icon2.svg" alt="icon">             
-                    <h5 class="py-4">COMFORT</h5>      
-                    <h3 class="price custom-h3 mx-auto"><sup class="currency">$</sup> 59 <sup class="period">mo</sup></h3>
-                  <div  class="py-5">   
-                    <p>ALL from BASIC +</p>
-                    <p class="borderP py-3">Day and night emergency care</p> 
-                    <p>Two more home visits a year</p>
-                  </div>     
-                    <a href="#"><button type="button" class="btn mt-2 btn-primary">Choose</button></a> 
-                  </div>
-                </div>
-      
-                <div class="col-md-4 text-center pt-5 pt-md-0">            
-                  <div class="pricing-box pricing-box-third padding">    
-                    <img src="images/bedoctor-pricing-icon1.svg" alt="icon">             
-                    <h5 class="py-4 text-white">COMPLEX</h5>      
-                    <h3 class="price custom-h3 mx-auto text-white"><sup class="currency text-white">$</sup> 99 <sup class="period text-white">mo</sup></h3>
-                  <div  class="py-5">   
-                    <p class="text-white">All from COMFORT +</p>
-                    <p class="borderP py-3 text-white">Rehabilitation after injury</p> 
-                    <p class="text-white">Four more home visits a year</p>
-                  </div>     
-                    <a href="#"><button type="button" class="btn mt-2 s-btn price-btn btn-primary">Choose</button></a> 
-                  </div>  
-                </div>
-            </div>            
-        </div> 
-    </main>              
-    <!-- packages-banner ends -->    
-
-     <!-- rating sec starts -->
-     <section class="rating padding"> 
+    <!-- header starts -->
+    <header class="header fixed-top bg-white shadow-sm">
+      <nav class="navbar navbar-expand-lg custom-margin">
         <div class="container">
-          <div class="row align-items-center"> 
-            <div class="col-md-6">
-              <img src="images/bedoctor-icon2.svg" alt="img"> 
-              <h3 class="py-5">Satisfied patients</h3>              
-              <h6 class="w-75 rating-p">Ac amet in adipiscing in sed sit eget. Aliquam suspendisse viverra varius lobortis elit velit. Sit vitae a enim mi vitae accumsan. Quam in auctor sed libero lacus. Varius adipiscing ac, commodo, tincidunt.</h6>
-              <p class="fw-semibold pt-4 mb-0">Kristin Watson</p>      
-              <p>Jun 27, 2020</p>  
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="images/bedoctor.svg" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler toggle-btn me-auto border-0 p-0 mt-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="nav-contact d-flex align-items-center justify-content-between ms-3 order-lg-1"
+          >
+            <a class="d-flex align-items-center" href="#"
+              ><img
+                class="icon1"
+                src="images/bedoctor-header-icon1.svg"
+                alt="icon1"
+              />
+              <span class="d-none d-xl-block ms-3">+61 (0) 3 8376 6284</span>
+              <span class="d-none d-md-block d-lg-block d-xl-none ms-3"
+                >Call&nbsp;us</span
+              ></a
+            >
+            <div class="icon2 ms-4 ms-md-5">
+              <a href="#"
+                ><img
+                  class="w-100"
+                  src="images/bedoctor-header-icon2.svg"
+                  alt="icon2"
+              /></a>
             </div>
-  
-            <div class="col-md-6 mt-5 mt-md-0">     
-            <div class="rating-img">  
-              <img class="w-100" src="images/bedoctor-packages-pic2.webp" alt="img">
-              <div class="rating-icon d-flex align-items-center shadow">     
-                <div class="icon-star d-flex justify-content-center align-items-center">      
-                  <i class="bi bi-star-fill"></i>     
-                </div>        
-              <div class="rating-text ps-4">      
-                <h4 class="mb-0">4.9</h4>  
-                <p>Opinions made by our patients</p>      
-              </div>  
-              </div>      
-            </div>   
-            </div>   
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav my-navbar mt-4 mt-md-0 mx-auto flex-lg-wrap justify-content-lg-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="packages.html"
+                  >Packages</a
+                >
+              </li>
+              <li class="nav-item me-0">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>                               
-      <!-- rating sec starts -->
+      </nav>
+    </header>
+    <!-- header ends -->
 
-      <!-- questions-sec starts -->             
-      <section class="questions-sec padding custom-margin mb-5 mobile-custom-padd">  
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">            
-                    <h3 class="mb-5">Frequently Asked Questions</h3>  
+    <!-- packages-banner starts -->
+    <main class="banner-custom-margin about-banner packages-banner">
+      <div class="container">
+        <div class="row align-items-center mobile-custom-margin">
+          <div class="col-md-6">
+            <h5 class="mb-0">BEDOCTOR</h5>
+            <h2 class="pt-4 pb-3 pb-md-4 pb-lg-5">Health Packages</h2>
+            <h6>
+              Vulputate fringilla in gravida hendrerit quis sed ultrices. Risus
+              in vestibulum turpis velit. Varius id consequat consectetur odio
+              elementum elit enim elit.
+            </h6>
+            <a href="#medicalPlan"
+              ><button
+                type="button"
+                class="btn s-btn new-btn mt-4 mb-4 mb-md-0 mt-md-5 btn-primary"
+              >
+                Select a package
+                <i class="fa-solid fa-angle-down ps-4 fs-6"></i></button
+            ></a>
+          </div>
 
-                    <div class="accordion accordion-flush pt-lg-3" id="accordionFlushExample">       
-                        <div class="accordion-item overflow-hidden mb-4 shadow-sm">                  
-                          <h2 class="accordion-header" id="flush-headingOne">             
-                            <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                              <h6 class="mb-0">Nostra ultricies gravida luctus hac</h6>      
-                            </button>      
-                          </h2>                    
-                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body p-0"><p class="mb-0">Suscipit dictum tellus senectus. Pede vehicula mattis lacinia ultrices diam luctus ornare tempor erat eu non. Ad leo aptent interdum libero neque si. Quis curabitur mus convallis fermentum at tempor per.</p></div>
-                          </div>                 
-                        </div>   
-                        
-                        
-                        <div class="accordion-item overflow-hidden mb-4 shadow-sm">                  
-                            <h2 class="accordion-header" id="flush-headingTwo">             
-                              <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                <h6 class="mb-0">Malesuada velit dictum fusce vehicula</h6>      
-                              </button>      
-                            </h2>                    
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body p-0"><p class="mb-0">Si enim amet sollicitudin eros. Penatibus suscipit elit ipsum accumsan morbi conubia non. Magna eu dolor semper risus himenaeos porta rhoncus venenatis primis. Hendrerit imperdiet venenatis in vitae per hac taciti ridiculus nullam at. Lobortis cras vestibulum metus risus montes conubia faucibus facilisi ligula. Gravida cursus ad sed ligula dis sit turpis curae. Elit vel platea per letius suscipit sapien ultricies rhoncus interdum.</p></div>
-                            </div>                 
-                        </div>
-                        
-                        <div class="accordion-item overflow-hidden mb-4 shadow-sm">                  
-                            <h2 class="accordion-header" id="flush-headingThree">              
-                              <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                <h6 class="mb-0">Tellus in morbi accumsan letius</h6>      
-                              </button>      
-                            </h2>                    
-                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body p-0"><p class="mb-0">quis vivamus iaculis lacus nascetur eget. Id quam dictumst cubilia cras turpis elit quis etiam felis aenean senectus.</p></div>
-                            </div>                 
-                        </div> 
-                        
-                        <div class="accordion-item overflow-hidden mb-4 shadow-sm">                  
-                            <h2 class="accordion-header" id="flush-headingFour">              
-                              <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                <h6 class="mb-0">Imperdiet diam nascetur si vehicula</h6>      
-                              </button>      
-                            </h2>                    
-                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body p-0"><p class="mb-0">Pulvinar turpis magnis a in. Nostra massa duis praesent odio ornare vivamus aliquet.</p></div>            
-                            </div>                 
-                        </div>
-                        
-                        <div class="accordion-item overflow-hidden mb-4 shadow-sm">                  
-                            <h2 class="accordion-header" id="flush-headingFive">               
-                              <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                <h6 class="mb-0">Maximus mollis leo donec euismod</h6>      
-                              </button>      
-                            </h2>                    
-                            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body p-0"><p class="mb-0">Fermentum dapibus lorem enim ultrices natoque velit a. Eget velit rutrum convallis iaculis platea.</p></div>            
-                            </div>                 
-                        </div>   
-                        
-                        <div class="accordion-item overflow-hidden mb-4 shadow-sm">                  
-                            <h2 class="accordion-header" id="flush-headingSix">                 
-                              <button class="accordion-button collapsed p-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                <h6 class="mb-0">Eros fames curae ultrices</h6>      
-                              </button>      
-                            </h2>                    
-                            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                              <div class="accordion-body p-0"><p class="mb-0">Et facilisis elit bibendum efficitur litora tristique luctus. Potenti blandit rutrum donec laoreet curabitur. Phasellus dapibus nam consequat gravida libero dictumst cursus elit integer. Sapien interdum ipsum ultricies auctor tincidunt lobortis eget felis letius molestie lacus.</p></div>            
-                            </div>                 
-                        </div>                          
-                         
-                        
-                    </div>                                        
-
-                </div>
-            </div>
+          <div class="col-md-6 text-center text-md-end mt-5 mt-md-0">
+            <img
+              class="w-75 mx-auto packages-banner-img"
+              src="images/bedoctor-packages-pic1.webp"
+              alt="img"
+            />
+          </div>
         </div>
-      </section>
-      <!-- questions-sec ends -->           
 
-    <!-- don't-wait-sec starts -->       
-    <section class="dont-wait-sec mb-0 mb-lg-5 padding custom-margin d-flex align-items-center dont-wait-mt">        
-      <div class="container"> 
-        <div class="row">  
-          <div class="col-12 text-center">    
-            <img class="mb-md-2" src="images/bedoctor-icon4.svg" alt="img">        
-            <h3 class="custom-h3 mx-auto text-white py-5">Don't wait and make an <br class="break"> appointment today</h3> 
-            <a href="#"><button type="button" class="btn s-btn mt-md-3 btn-primary">Book an appointment</button></a> 
+        <div id="medicalPlan" class="row padding mt-md-5 mobile-custom-margin">
+          <div class="col-md-4 text-center">
+            <div class="pricing-box bg-white padding">
+              <img src="images/bedoctor-pricing-icon1.svg" alt="icon" />
+              <h5 class="py-4">BASIC</h5>
+              <h3 class="price custom-h3 mx-auto">
+                <sup class="currency">$</sup> 39 <sup class="period">mo</sup>
+              </h3>
+              <div class="py-5">
+                <p>Consultation with doctor</p>
+                <p class="borderP py-3">Laboratory and diagnostic tests</p>
+                <p>Two home visits a year</p>
+              </div>
+              <a href="#"
+                ><button type="button" class="btn mt-2 btn-primary">
+                  Choose
+                </button></a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center pt-5 pt-md-0">
+            <div class="pricing-box bg-white padding">
+              <img src="images/bedoctor-pricing-icon2.svg" alt="icon" />
+              <h5 class="py-4">COMFORT</h5>
+              <h3 class="price custom-h3 mx-auto">
+                <sup class="currency">$</sup> 59 <sup class="period">mo</sup>
+              </h3>
+              <div class="py-5">
+                <p>ALL from BASIC +</p>
+                <p class="borderP py-3">Day and night emergency care</p>
+                <p>Two more home visits a year</p>
+              </div>
+              <a href="#"
+                ><button type="button" class="btn mt-2 btn-primary">
+                  Choose
+                </button></a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center pt-5 pt-md-0">
+            <div class="pricing-box pricing-box-third padding">
+              <img src="images/bedoctor-pricing-icon1.svg" alt="icon" />
+              <h5 class="py-4 text-white">COMPLEX</h5>
+              <h3 class="price custom-h3 mx-auto text-white">
+                <sup class="currency text-white">$</sup> 99
+                <sup class="period text-white">mo</sup>
+              </h3>
+              <div class="py-5">
+                <p class="text-white">All from COMFORT +</p>
+                <p class="borderP py-3 text-white">
+                  Rehabilitation after injury
+                </p>
+                <p class="text-white">Four more home visits a year</p>
+              </div>
+              <a href="#"
+                ><button
+                  type="button"
+                  class="btn mt-2 s-btn price-btn btn-primary"
+                >
+                  Choose
+                </button></a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </section>      
-    <!-- don't-wait-sec ends -->     
+    </main>
+    <!-- packages-banner ends -->
 
-    <!-- footer starts -->
-    <footer class="padding pb-0 custom-margin">       
+    <!-- rating sec starts -->
+    <section class="rating padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/bedoctor-icon2.svg" alt="img" />
+            <h3 class="py-5">Satisfied patients</h3>
+            <h6 class="w-75 rating-p">
+              Ac amet in adipiscing in sed sit eget. Aliquam suspendisse viverra
+              varius lobortis elit velit. Sit vitae a enim mi vitae accumsan.
+              Quam in auctor sed libero lacus. Varius adipiscing ac, commodo,
+              tincidunt.
+            </h6>
+            <p class="fw-semibold pt-4 mb-0">Kristin Watson</p>
+            <p>Jun 27, 2020</p>
+          </div>
+
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="rating-img">
+              <img
+                class="w-100"
+                src="images/bedoctor-packages-pic2.webp"
+                alt="img"
+              />
+              <div class="rating-icon d-flex align-items-center shadow">
+                <div
+                  class="icon-star d-flex justify-content-center align-items-center"
+                >
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="rating-text ps-4">
+                  <h4 class="mb-0">4.9</h4>
+                  <p>Opinions made by our patients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- rating sec starts -->
+
+    <!-- questions-sec starts -->
+    <section
+      class="questions-sec padding custom-margin mb-5 mobile-custom-padd"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10">
+            <h3 class="mb-5">Frequently Asked Questions</h3>
+
+            <div
+              class="accordion accordion-flush pt-lg-3"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item overflow-hidden mb-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed p-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <h6 class="mb-0">Nostra ultricies gravida luctus hac</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-0">
+                    <p class="mb-0">
+                      Suscipit dictum tellus senectus. Pede vehicula mattis
+                      lacinia ultrices diam luctus ornare tempor erat eu non. Ad
+                      leo aptent interdum libero neque si. Quis curabitur mus
+                      convallis fermentum at tempor per.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item overflow-hidden mb-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed p-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <h6 class="mb-0">Malesuada velit dictum fusce vehicula</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-0">
+                    <p class="mb-0">
+                      Si enim amet sollicitudin eros. Penatibus suscipit elit
+                      ipsum accumsan morbi conubia non. Magna eu dolor semper
+                      risus himenaeos porta rhoncus venenatis primis. Hendrerit
+                      imperdiet venenatis in vitae per hac taciti ridiculus
+                      nullam at. Lobortis cras vestibulum metus risus montes
+                      conubia faucibus facilisi ligula. Gravida cursus ad sed
+                      ligula dis sit turpis curae. Elit vel platea per letius
+                      suscipit sapien ultricies rhoncus interdum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item overflow-hidden mb-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed p-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <h6 class="mb-0">Tellus in morbi accumsan letius</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-0">
+                    <p class="mb-0">
+                      quis vivamus iaculis lacus nascetur eget. Id quam dictumst
+                      cubilia cras turpis elit quis etiam felis aenean senectus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item overflow-hidden mb-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button
+                    class="accordion-button collapsed p-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    <h6 class="mb-0">Imperdiet diam nascetur si vehicula</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-0">
+                    <p class="mb-0">
+                      Pulvinar turpis magnis a in. Nostra massa duis praesent
+                      odio ornare vivamus aliquet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item overflow-hidden mb-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button
+                    class="accordion-button collapsed p-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    <h6 class="mb-0">Maximus mollis leo donec euismod</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-0">
+                    <p class="mb-0">
+                      Fermentum dapibus lorem enim ultrices natoque velit a.
+                      Eget velit rutrum convallis iaculis platea.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item overflow-hidden mb-4 shadow-sm">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button
+                    class="accordion-button collapsed p-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    <h6 class="mb-0">Eros fames curae ultrices</h6>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSix"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body p-0">
+                    <p class="mb-0">
+                      Et facilisis elit bibendum efficitur litora tristique
+                      luctus. Potenti blandit rutrum donec laoreet curabitur.
+                      Phasellus dapibus nam consequat gravida libero dictumst
+                      cursus elit integer. Sapien interdum ipsum ultricies
+                      auctor tincidunt lobortis eget felis letius molestie
+                      lacus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- questions-sec ends -->
+
+    <!-- don't-wait-sec starts -->
+    <section
+      class="dont-wait-sec mb-0 mb-lg-5 padding custom-margin d-flex align-items-center dont-wait-mt"
+    >
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center mb-md-5">   
-            <img src="images/bedoctor-footer-logo.svg" alt="img"> 
-          </div>        
-        </div>     
-      
-      <div class="row pt-5">   
-        <div class="col-md-4 text-center text-md-start">   
-          <h6>Level 13, 2 Elizabeth St, <br class="break"> Melbourne, Victoria <br class="break"> 3000, Australia</h6>
-          <p class="py-4 pt-md-4 pb-md-5">Opening hours: Mon - Sat: 9 AM - 6 PM</p>  
-
-          <div class="social pb-2 pb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">  
-            <i class="fa-brands fa-facebook-f"></i> 
-            <i class="fa-brands fa-instagram mx-4 mx-md-5"></i>     
-            <i class="fa-brands fa-pinterest"></i>    
-          </div>
-        </div>
-
-        <div class="col-md-4 text-center pt-5 pt-md-0">    
-        <h6>Contact me</h6>           
-      <a href="#">                    
-        <h3 class="custom-h3 py-4 py-md-5 w-100 mx-auto">+61 (0) 3 8376 6284</h3> 
-      </a>  
-      <a href="#"><button type="button" class="btn mb-2 mb-md-0 mt-2 btn-primary">Contact us</button></a>
-        </div>
-
-        <div class="col-md-4 text-center pt-5">  
-          <h6>Useful links</h6>  
-          <div class="link pt-4 pt-md-5">   
-            <a href="#">Contact with us</a><br>
-            <a href="#">Who we are?</a><br>
-            <a href="#">Safety data sheets</a><br>
-            <a href="#">Job application</a><br>
-            <a href="#">Privacy policy</a><br> 
+          <div class="col-12 text-center">
+            <img class="mb-md-2" src="images/bedoctor-icon4.svg" alt="img" />
+            <h3 class="custom-h3 mx-auto text-white py-5">
+              Don't wait and make an <br class="break" />
+              appointment today
+            </h3>
+            <a href="#"
+              ><button type="button" class="btn s-btn mt-md-3 btn-primary">
+                Book an appointment
+              </button></a
+            >
           </div>
         </div>
       </div>
+    </section>
+    <!-- don't-wait-sec ends -->
 
-      <div class="row copyright mt-5">    
-          <div class="col-12">               
-              <p class="text-center pt-4 pb-3 py-md-5">Copyright © 2024 All rights reserved || Made with <i class="bi bi-heart-fill"></i> by <span>RAJNISH</span></p> 
-          </div> 
-        </div>         
+    <!-- footer starts -->
+    <footer class="padding pb-0 custom-margin">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-md-5">
+            <img src="images/bedoctor-footer-logo.svg" alt="img" />
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-md-4 text-center text-md-start">
+            <h6>
+              Level 13, 2 Elizabeth St, <br class="break" />
+              Melbourne, Victoria <br class="break" />
+              3000, Australia
+            </h6>
+            <p class="py-4 pt-md-4 pb-md-5">
+              Opening hours: Mon - Sat: 9 AM - 6 PM
+            </p>
+
+            <div
+              class="social pb-2 pb-md-0 d-flex align-items-center justify-content-center justify-content-md-start"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram mx-4 mx-md-5"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center pt-5 pt-md-0">
+            <h6>Contact me</h6>
+            <a href="#">
+              <h3 class="custom-h3 py-4 py-md-5 w-100 mx-auto">
+                +61 (0) 3 8376 6284
+              </h3>
+            </a>
+            <a href="#"
+              ><button type="button" class="btn mb-2 mb-md-0 mt-2 btn-primary">
+                Contact us
+              </button></a
+            >
+          </div>
+
+          <div class="col-md-4 text-center pt-5">
+            <h6>Useful links</h6>
+            <div class="link pt-4 pt-md-5">
+              <a href="#">Contact with us</a><br />
+              <a href="#">Who we are?</a><br />
+              <a href="#">Safety data sheets</a><br />
+              <a href="#">Job application</a><br />
+              <a href="#">Privacy policy</a><br />
+            </div>
+          </div>
+        </div>
+
+        <div class="row copyright mt-5">
+          <div class="col-12">
+            <p class="text-center pt-4 pb-3 py-md-5">
+              Copyright © 2024 All rights reserved || Made with
+              <i class="bi bi-heart-fill"></i> by <span>RAJNISH</span>
+            </p>
+          </div>
+        </div>
       </div>
-    </footer>                         
-    <!-- footer ends -->       
+    </footer>
+    <!-- footer ends -->
 
-    <!-- bootstrap JS -->      
-    <script src="js/bootstrap.bundle.min.js"></script>                      
+    <!-- bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
     <!-- aos js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- initialize aos -->
     <script>
       AOS.init({
-        duration: 500 
+        duration: 500,
       });
     </script>
-    <!-- custom js -->                        
-    <script src="js/script.js"></script>              
+    <!-- custom js -->
+    <script src="js/script.js"></script>
   </body>
-</html>            
-          
+</html>

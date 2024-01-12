@@ -1,406 +1,621 @@
-<!DOCTYPE html>                               
-<html lang="en">              
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <!-- required meta tag -->                       
+    <!-- required meta tag -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- title -->
-    <title>Be Doctor</title> 
+    <title>Be Doctor</title>
     <!-- fav icon -->
-    <link rel="icon" type="image/x-icon" href="images/bedoctor.png" />       
-    <!-- bootstrap css   --> 
-    <link rel="stylesheet" href="css/bootstrap.min.css">     
+    <link rel="icon" type="image/x-icon" href="images/bedoctor.png" />
+    <!-- bootstrap css   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- aos css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- bootstrap icon cdn -->  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- bootstrap icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />        
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- header starts -->   
-    <header class="header fixed-top bg-white shadow-sm">    
-       <nav class="navbar navbar-expand-lg custom-margin">         
-        <div class="container">                       
-          <a class="navbar-brand" href="#"><img class="logo" src="images/bedoctor.svg" alt="logo"></a>    
-          <button class="navbar-toggler toggle-btn me-auto border-0 p-0 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>    
-          </button>    
-          
-          <div class="nav-contact d-flex align-items-center justify-content-between ms-3 order-lg-1">                  
-          <a class="d-flex align-items-center" href="#"><img class="icon1" src="images/bedoctor-header-icon1.svg" alt="icon1"> <span class="d-none d-xl-block ms-3">+61 (0) 3 8376 6284</span> <span class="d-none d-md-block d-lg-block d-xl-none ms-3">Call&nbsp;us</span></a> 
-           <div class="icon2 ms-4 ms-md-5">
-            <a href="#"><img class="w-100" src="images/bedoctor-header-icon2.svg" alt="icon2"></a>
-          </div>       
-          </div>     
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">         
-            <ul class="navbar-nav my-navbar mt-4 mt-md-0 mx-auto flex-lg-wrap justify-content-lg-center">                                                             
-              <li class="nav-item"> 
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>    
+    <!-- header starts -->
+    <header class="header fixed-top bg-white shadow-sm">
+      <nav class="navbar navbar-expand-lg custom-margin">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="images/bedoctor.svg" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler toggle-btn me-auto border-0 p-0 mt-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="nav-contact d-flex align-items-center justify-content-between ms-3 order-lg-1"
+          >
+            <a class="d-flex align-items-center" href="#"
+              ><img
+                class="icon1"
+                src="images/bedoctor-header-icon1.svg"
+                alt="icon1"
+              />
+              <span class="d-none d-xl-block ms-3">+61 (0) 3 8376 6284</span>
+              <span class="d-none d-md-block d-lg-block d-xl-none ms-3"
+                >Call&nbsp;us</span
+              ></a
+            >
+            <div class="icon2 ms-4 ms-md-5">
+              <a href="#"
+                ><img
+                  class="w-100"
+                  src="images/bedoctor-header-icon2.svg"
+                  alt="icon2"
+              /></a>
+            </div>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav my-navbar mt-4 mt-md-0 mx-auto flex-lg-wrap justify-content-lg-center"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>     
-              </li> 
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>  
-              </li> 
+                <a class="nav-link" href="about.html">About</a>
+              </li>
               <li class="nav-item">
-                <a class="nav-link" href="packages.html">Packages</a>   
-              </li> 
-              <li class="nav-item me-0"> 
-                <a class="nav-link" href="contact.html">Contact</a>     
-              </li>          
+                <a class="nav-link" href="packages.html">Packages</a>
+              </li>
+              <li class="nav-item me-0">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
           </div>
-        </div>     
-      </nav>     
-    </header>  
-    <!-- header ends -->       
+        </div>
+      </nav>
+    </header>
+    <!-- header ends -->
 
-    <!-- banner starts -->  
-    <div class="banner banner-custom-margin text-center text-md-start">                 
-      <div class="container">         
-        <div class="row align-items-center overflow-hidden mobile-custom-margin">    
+    <!-- banner starts -->
+    <div class="banner banner-custom-margin text-center text-md-start">
+      <div class="container">
+        <div
+          class="row align-items-center overflow-hidden mobile-custom-margin"
+        >
           <div class="col-md-6">
-            <h5>BEDOCTOR</h5>                  
-            <h2 class="py-3 mb-0">Hi, I'm <span>Kim Granger</span> and I'll be your family doctor!</h2>  
-            <div class="banner-btn d-flex align-items-lg-center flex-column flex-lg-row mt-5">   
-              <a href="#"><button type="button" class="btn btn-primary">Book an appointment</button></a>  
-              <a href="#"><button type="button" class="btn s-btn mt-4 mt-lg-0 ms-lg-5 btn-primary">My experience</button></a>    
-            </div> 
-          </div>
-          
-          <div data-aos="slide-left" class="col-md-6 mt-5 mt-md-0">   
-            <img class="w-100" src="images/bedoctor-home-pic1.webp" alt="img">   
-          </div> 
-        </div>
-      </div>
-    </div>   
-    <!-- banner ends -->  
-
-    <!-- profile-sec starts -->
-    <section class="profile-sec padding">           
-      <div class="container">
-        <div class="row align-items-center">  
-          <div class="col-md-5 text-center text-md-start"> 
-            <img class="w-75 profile-image" src="images/bedoctor-home-pic2.webp" alt="img">  
-          </div>
-
-          <div class="col-md-7 mt-5 mt-md-0">    
-            <img src="images/bedoctor-icon1.svg" alt="img">     
-            <h4 class="py-5">Vulputate fringilla in gravida hendrerit quis sed ultrices. Risus in vestibulum turpis velit. Varius id consequat consectetur odio elementum elit enim elit. Eget donec vitae bibendum pulvinar. Suscipit massa fermentum.</h4>
-            <span class="span">Kim Granger</span>      
-          </div>  
-        </div>
-      </div>
-    </section>
-    <!-- profile-sec ends -->   
-
-    <!-- our-services starts -->  
-    <section class="our-services padding custom-margin mobile-custom-padd">    
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center"> 
-            <h5>OUR SERVICES</h5> 
-            <h3 class="pt-3 pb-4 pt-md-4 pb-md-5">Our specializations</h3>    
-            <p class="para mx-auto pb-md-4">Posuere at arcu, felis iaculis tortor mattis id. Eu at in posuere elit. Feugiat at faucibus risus commodo odio.</p>
-          </div> 
-        </div>
-
-        <div class="row pt-5"> 
-          <div class="col-md-6 col-lg-4">   
-            <div class="card border-0 text-center overflow-hidden">                
-              <img class="w-100" src="images/bedoctor-services-pic1.webp" alt="card-img"> 
-              <div class="card-body py-5"> 
-                <h4 class="card-title">Dental Department</h4> 
-                <p class="pt-3 pb-4 card-text">Sodales habitasse aliquam solli primis.</p>
-                <a href="#"><button type="button" class="btn mb-md-2 s-btn btn-primary">See more</button></a>
-              </div>  
+            <h5>BEDOCTOR</h5>
+            <h2 class="py-3 mb-0">
+              Hi, I'm <span>Kim Granger</span> and I'll be your family doctor!
+            </h2>
+            <div
+              class="banner-btn d-flex align-items-lg-center flex-column flex-lg-row mt-5"
+            >
+              <a href="#"
+                ><button type="button" class="btn btn-primary">
+                  Book an appointment
+                </button></a
+              >
+              <a href="#"
+                ><button
+                  type="button"
+                  class="btn s-btn mt-4 mt-lg-0 ms-lg-5 btn-primary"
+                >
+                  My experience
+                </button></a
+              >
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 pt-5 pt-md-0">      
-            <div class="card border-0 text-center overflow-hidden">                
-              <img class="w-100" src="images/bedoctor-services-pic2.webp" alt="card-img"> 
-              <div class="card-body py-5"> 
-                <h4 class="card-title">Cardiology</h4> 
-                <p class="pt-3 pb-4 card-text">Tristique nam porttitor at vivamus.</p>
-                <a href="#"><button type="button" class="btn mb-md-2 s-btn btn-primary">See more</button></a>
-              </div>  
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 pt-5 pt-lg-0">    
-            <div class="card border-0 text-center overflow-hidden">                
-              <img class="w-100" src="images/bedoctor-services-pic3.webp" alt="card-img"> 
-              <div class="card-body py-5"> 
-                <h4 class="card-title">Pediatrics</h4> 
-                <p class="pt-3 pb-4 card-text">Blandit donec convallis feugiat velit.</p>
-                <a href="#"><button type="button" class="btn mb-md-2 s-btn btn-primary">See more</button></a>
-              </div>  
-            </div>
-          </div>
- 
-        <div class="col-md-6 col-lg-4 pt-5"> 
-          <div class="card border-0 text-center overflow-hidden">                
-            <img class="w-100" src="images/bedoctor-services-pic4.webp" alt="card-img"> 
-            <div class="card-body py-5"> 
-              <h4 class="card-title">X-Ray</h4> 
-              <p class="pt-3 pb-4 card-text">Enim cursus nullam eu dolor.</p>
-              <a href="#"><button type="button" class="btn mb-md-2 s-btn btn-primary">See more</button></a>
-            </div>  
+          <div data-aos="slide-left" class="col-md-6 mt-5 mt-md-0">
+            <img class="w-100" src="images/bedoctor-home-pic1.webp" alt="img" />
           </div>
         </div>
-
-        <div class="col-md-6 col-lg-4 pt-5"> 
-          <div class="card border-0 text-center overflow-hidden">                
-            <img class="w-100" src="images/bedoctor-services-pic5.webp" alt="card-img"> 
-            <div class="card-body py-5"> 
-              <h4 class="card-title">Ear treatment</h4> 
-              <p class="pt-3 pb-4 card-text">Vitae enim aliquam aliquet sit.</p>
-              <a href="#"><button type="button" class="btn mb-md-2 s-btn btn-primary">See more</button></a>
-            </div>  
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 pt-5">  
-          <div class="card border-0 text-center overflow-hidden">                
-            <img class="w-100" src="images/bedoctor-services-pic6.webp" alt="card-img">  
-            <div class="card-body py-5"> 
-              <h4 class="card-title">Pregnancy</h4> 
-              <p class="pt-3 pb-4 card-text">Neque cubilia etiam fringilla integer.</p>
-              <a href="#"><button type="button" class="btn mb-md-2 s-btn btn-primary">See more</button></a>
-            </div>  
-          </div>
-        </div>
-      </div> 
-
-      </div>
-    </section>  
-    <!-- our-services ends -->  
-
-    <!-- experience-sec starts -->
-    <section class="experience-sec padding custom-margin mt-5"> 
-      <div class="container">
-      <div class="row justify-content-center justify-content-md-start">
-        <div class="col-8 col-md-12"> 
-          <h3 class="text-white">Why you should <br class="break"> choose me?</h3> 
-          <a href="#"><button type="button" class="btn mt-5 btn-primary">My experience</button></a>
-        </div>
-      </div> 
-
-      <div class="row justify-content-center justify-content-md-between custom-padding">        
-        <div class="col-8 col-md-3"> 
-          <img src="images/bedoctor-num1.svg" alt="img">  
-          <h6 class="text-white pt-4 pt-md-5">Posuere viverra felis cursus porta. Lacus, egestas elit sed faucibus id nisl scelerisque.</h6>
-        </div>
-
-        <div class="col-8 col-md-3 pt-4 pt-md-0">  
-          <img src="images/bedoctor-num2.svg" alt="img"> 
-          <h6 class="text-white pt-4 pt-md-5">Posuere viverra felis cursus porta. Lacus, egestas elit sed faucibus id nisl scelerisque.</h6>
-        </div>
-
-        <div class="col-8 col-md-3 pt-4 pt-md-0">    
-          <img src="images/bedoctor-num3.svg" alt="img">  
-          <h6 class="text-white pt-4 pt-md-5">Posuere viverra felis cursus porta. Lacus, egestas elit sed faucibus id nisl scelerisque.</h6>
-        </div>   
       </div>
     </div>
-    </section>
-    <!-- experience-sec ends --> 
+    <!-- banner ends -->
 
-    <!-- book appointment starts -->  
-    <section class="book-appointment padding">    
+    <!-- profile-sec starts -->
+    <section class="profile-sec padding">
       <div class="container">
-        <div class="row"> 
-          <div class="col-md-6">   
-           <div class="box-img">  
-             <!-- background image -->  
-           </div>
+        <div class="row align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <img
+              class="w-75 profile-image"
+              src="images/bedoctor-home-pic2.webp"
+              alt="img"
+            />
           </div>
 
-          <div class="col-md-6 text-center mt-5 mt-md-0">   
-            <div class="box-content padding">       
-          <div class="pin-icon mx-auto">   
-            <img src="images/bedoctor-icon-pin.svg" alt="img"> 
-          </div> 
-            <h3 class="custom-h3 w-75 mx-auto pt-5 pb-4 py-md-5">Visit our new facility. We're looking forward to seeing you!</h3>
-            <h6>Level 13, 2 Elizabeth St, <br> Melbourne, Victoria 3000, <br> Australia</h6>
-            <a href="#"><button type="button" class="btn mt-4 mt-md-5 btn-primary">Book an appointment</button></a>
+          <div class="col-md-7 mt-5 mt-md-0">
+            <img src="images/bedoctor-icon1.svg" alt="img" />
+            <h4 class="py-5">
+              Vulputate fringilla in gravida hendrerit quis sed ultrices. Risus
+              in vestibulum turpis velit. Varius id consequat consectetur odio
+              elementum elit enim elit. Eget donec vitae bibendum pulvinar.
+              Suscipit massa fermentum.
+            </h4>
+            <span class="span">Kim Granger</span>
           </div>
-        </div> 
         </div>
-      </div> 
+      </div>
     </section>
-    <!-- book appointment ends -->   
+    <!-- profile-sec ends -->
 
-    <!-- pricing sec starts -->
-    <section class="pricing-sec custom-margin padding mobile-custom-padd"> 
+    <!-- our-services starts -->
+    <section class="our-services padding custom-margin mobile-custom-padd">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h5>PRICING</h5>  
-            <h3 class="pt-3 pb-4 pt-md-4 pb-md-5">Choose your health plan</h3>    
-            <p class="para mx-auto pb-md-4">Posuere at arcu, felis iaculis tortor mattis id. Eu at in posuere elit. Feugiat at faucibus risus commodo odio.</p>
+            <h5>OUR SERVICES</h5>
+            <h3 class="pt-3 pb-4 pt-md-4 pb-md-5">Our specializations</h3>
+            <p class="para mx-auto pb-md-4">
+              Posuere at arcu, felis iaculis tortor mattis id. Eu at in posuere
+              elit. Feugiat at faucibus risus commodo odio.
+            </p>
           </div>
         </div>
 
-        <div class="row pt-4">  
-          <div class="col-md-4 text-center">         
-            <div class="pricing-box bg-white padding">    
-              <img src="images/bedoctor-pricing-icon1.svg" alt="icon">             
-              <h5 class="py-4">BASIC</h5>      
-              <h3 class="price custom-h3 mx-auto"><sup class="currency">$</sup> 39 <sup class="period">mo</sup></h3>
-            <div  class="py-5">   
-              <p>Consultation with doctor</p>
-              <p class="borderP py-3">Laboratory and diagnostic tests</p> 
-              <p>Two home visits a year</p>
-            </div>     
-              <a href="#"><button type="button" class="btn mt-2 btn-primary">Choose</button></a> 
+        <div class="row pt-5">
+          <div class="col-md-6 col-lg-4">
+            <div class="card border-0 text-center overflow-hidden">
+              <img
+                class="w-100"
+                src="images/bedoctor-services-pic1.webp"
+                alt="card-img"
+              />
+              <div class="card-body py-5">
+                <h4 class="card-title">Dental Department</h4>
+                <p class="pt-3 pb-4 card-text">
+                  Sodales habitasse aliquam solli primis.
+                </p>
+                <a href="#"
+                  ><button type="button" class="btn mb-md-2 s-btn btn-primary">
+                    See more
+                  </button></a
+                >
+              </div>
             </div>
           </div>
 
-          <div class="col-md-4 text-center pt-5 pt-md-0">          
-            <div class="pricing-box bg-white padding">    
-              <img src="images/bedoctor-pricing-icon2.svg" alt="icon">             
-              <h5 class="py-4">COMFORT</h5>      
-              <h3 class="price custom-h3 mx-auto"><sup class="currency">$</sup> 59 <sup class="period">mo</sup></h3>
-            <div  class="py-5">   
-              <p>ALL from BASIC +</p>
-              <p class="borderP py-3">Day and night emergency care</p> 
-              <p>Two more home visits a year</p>
-            </div>     
-              <a href="#"><button type="button" class="btn mt-2 btn-primary">Choose</button></a> 
+          <div class="col-md-6 col-lg-4 pt-5 pt-md-0">
+            <div class="card border-0 text-center overflow-hidden">
+              <img
+                class="w-100"
+                src="images/bedoctor-services-pic2.webp"
+                alt="card-img"
+              />
+              <div class="card-body py-5">
+                <h4 class="card-title">Cardiology</h4>
+                <p class="pt-3 pb-4 card-text">
+                  Tristique nam porttitor at vivamus.
+                </p>
+                <a href="#"
+                  ><button type="button" class="btn mb-md-2 s-btn btn-primary">
+                    See more
+                  </button></a
+                >
+              </div>
             </div>
           </div>
 
-          <div class="col-md-4 text-center pt-5 pt-md-0">            
-            <div class="pricing-box pricing-box-third padding">    
-              <img src="images/bedoctor-pricing-icon1.svg" alt="icon">             
-              <h5 class="py-4 text-white">COMPLEX</h5>      
-              <h3 class="price custom-h3 mx-auto text-white"><sup class="currency text-white">$</sup> 99 <sup class="period text-white">mo</sup></h3>
-            <div  class="py-5">   
-              <p class="text-white">All from COMFORT +</p>
-              <p class="borderP py-3 text-white">Rehabilitation after injury</p> 
-              <p class="text-white">Four more home visits a year</p>
-            </div>     
-              <a href="#"><button type="button" class="btn mt-2 s-btn price-btn btn-primary">Choose</button></a> 
-            </div>  
+          <div class="col-md-6 col-lg-4 pt-5 pt-lg-0">
+            <div class="card border-0 text-center overflow-hidden">
+              <img
+                class="w-100"
+                src="images/bedoctor-services-pic3.webp"
+                alt="card-img"
+              />
+              <div class="card-body py-5">
+                <h4 class="card-title">Pediatrics</h4>
+                <p class="pt-3 pb-4 card-text">
+                  Blandit donec convallis feugiat velit.
+                </p>
+                <a href="#"
+                  ><button type="button" class="btn mb-md-2 s-btn btn-primary">
+                    See more
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 pt-5">
+            <div class="card border-0 text-center overflow-hidden">
+              <img
+                class="w-100"
+                src="images/bedoctor-services-pic4.webp"
+                alt="card-img"
+              />
+              <div class="card-body py-5">
+                <h4 class="card-title">X-Ray</h4>
+                <p class="pt-3 pb-4 card-text">Enim cursus nullam eu dolor.</p>
+                <a href="#"
+                  ><button type="button" class="btn mb-md-2 s-btn btn-primary">
+                    See more
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 pt-5">
+            <div class="card border-0 text-center overflow-hidden">
+              <img
+                class="w-100"
+                src="images/bedoctor-services-pic5.webp"
+                alt="card-img"
+              />
+              <div class="card-body py-5">
+                <h4 class="card-title">Ear treatment</h4>
+                <p class="pt-3 pb-4 card-text">
+                  Vitae enim aliquam aliquet sit.
+                </p>
+                <a href="#"
+                  ><button type="button" class="btn mb-md-2 s-btn btn-primary">
+                    See more
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 pt-5">
+            <div class="card border-0 text-center overflow-hidden">
+              <img
+                class="w-100"
+                src="images/bedoctor-services-pic6.webp"
+                alt="card-img"
+              />
+              <div class="card-body py-5">
+                <h4 class="card-title">Pregnancy</h4>
+                <p class="pt-3 pb-4 card-text">
+                  Neque cubilia etiam fringilla integer.
+                </p>
+                <a href="#"
+                  ><button type="button" class="btn mb-md-2 s-btn btn-primary">
+                    See more
+                  </button></a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- pricing sec starts -->  
-     
-    <!-- rating sec starts -->
-    <section class="rating padding"> 
+    <!-- our-services ends -->
+
+    <!-- experience-sec starts -->
+    <section class="experience-sec padding custom-margin mt-5">
       <div class="container">
-        <div class="row align-items-center"> 
-          <div class="col-md-6">
-            <img src="images/bedoctor-icon2.svg" alt="img"> 
-            <h3 class="py-5">Satisfied patients</h3>              
-            <h6 class="w-75 rating-p">Ac amet in adipiscing in sed sit eget. Aliquam suspendisse viverra varius lobortis elit velit. Sit vitae a enim mi vitae accumsan. Quam in auctor sed libero lacus. Varius adipiscing ac, commodo, tincidunt.</h6>
-            <p class="fw-semibold pt-4 mb-0">Kristin Watson</p>      
-            <p>Jun 27, 2020</p>  
-          </div>
-
-          <div class="col-md-6 mt-5 mt-md-0">     
-          <div class="rating-img">  
-            <img class="w-100" src="images/bedoctor-packages-pic2.webp" alt="img">
-            <div class="rating-icon d-flex align-items-center shadow">     
-              <div class="icon-star d-flex justify-content-center align-items-center">      
-                <i class="bi bi-star-fill"></i>     
-              </div>        
-            <div class="rating-text ps-4">      
-              <h4 class="mb-0">4.9</h4>  
-              <p>Opinions made by our patients</p>      
-            </div>  
-            </div>      
-          </div>   
-          </div>   
-        </div>
-      </div>
-    </section>                               
-    <!-- rating sec starts -->
-
-    <!-- don't-wait-sec starts -->    
-    <section class="dont-wait-sec  padding custom-margin d-flex align-items-center">       
-      <div class="container"> 
-        <div class="row">  
-          <div class="col-12 text-center">    
-            <img class="mb-md-2" src="images/bedoctor-icon4.svg" alt="img">        
-            <h3 class="custom-h3 mx-auto text-white py-5">Don't wait and make an <br class="break"> appointment today</h3> 
-            <a href="#"><button type="button" class="btn s-btn mt-md-3 btn-primary">Book an appointment</button></a> 
+        <div class="row justify-content-center justify-content-md-start">
+          <div class="col-8 col-md-12">
+            <h3 class="text-white">
+              Why you should <br class="break" />
+              choose me?
+            </h3>
+            <a href="#"
+              ><button type="button" class="btn mt-5 btn-primary">
+                My experience
+              </button></a
+            >
           </div>
         </div>
-      </div>
-    </section>     
-    <!-- don't-wait-sec ends -->    
 
-    <!-- footer starts -->
-    <footer class="padding pb-0 custom-margin">        
+        <div
+          class="row justify-content-center justify-content-md-between custom-padding"
+        >
+          <div class="col-8 col-md-3">
+            <img src="images/bedoctor-num1.svg" alt="img" />
+            <h6 class="text-white pt-4 pt-md-5">
+              Posuere viverra felis cursus porta. Lacus, egestas elit sed
+              faucibus id nisl scelerisque.
+            </h6>
+          </div>
+
+          <div class="col-8 col-md-3 pt-4 pt-md-0">
+            <img src="images/bedoctor-num2.svg" alt="img" />
+            <h6 class="text-white pt-4 pt-md-5">
+              Posuere viverra felis cursus porta. Lacus, egestas elit sed
+              faucibus id nisl scelerisque.
+            </h6>
+          </div>
+
+          <div class="col-8 col-md-3 pt-4 pt-md-0">
+            <img src="images/bedoctor-num3.svg" alt="img" />
+            <h6 class="text-white pt-4 pt-md-5">
+              Posuere viverra felis cursus porta. Lacus, egestas elit sed
+              faucibus id nisl scelerisque.
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- experience-sec ends -->
+
+    <!-- book appointment starts -->
+    <section class="book-appointment padding">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center mb-md-5">   
-            <img src="images/bedoctor-footer-logo.svg" alt="img"> 
-          </div>        
-        </div>     
-      
-      <div class="row pt-5">   
-        <div class="col-md-4 text-center text-md-start">   
-          <h6>Level 13, 2 Elizabeth St, <br class="break"> Melbourne, Victoria <br class="break"> 3000, Australia</h6>
-          <p class="py-4 pt-md-4 pb-md-5">Opening hours: Mon - Sat: 9 AM - 6 PM</p>  
-
-          <div class="social pb-2 pb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">  
-            <i class="fa-brands fa-facebook-f"></i> 
-            <i class="fa-brands fa-instagram mx-4 mx-md-5"></i>     
-            <i class="fa-brands fa-pinterest"></i>    
+          <div class="col-md-6">
+            <div class="box-img">
+              <!-- background image -->
+            </div>
           </div>
-        </div>
 
-        <div class="col-md-4 text-center pt-5 pt-md-0">    
-        <h6>Contact me</h6>           
-      <a href="#">                    
-        <h3 class="custom-h3 py-4 py-md-5 w-100 mx-auto">+61 (0) 3 8376 6284</h3> 
-      </a>  
-      <a href="#"><button type="button" class="btn mb-2 mb-md-0 mt-2 btn-primary">Contact us</button></a>
-        </div>
-
-        <div class="col-md-4 text-center pt-5">  
-          <h6>Useful links</h6>  
-          <div class="link pt-4 pt-md-5">   
-            <a href="#">Contact with us</a><br>
-            <a href="#">Who we are?</a><br>
-            <a href="#">Safety data sheets</a><br>
-            <a href="#">Job application</a><br>
-            <a href="#">Privacy policy</a><br> 
+          <div class="col-md-6 text-center mt-5 mt-md-0">
+            <div class="box-content padding">
+              <div class="pin-icon mx-auto">
+                <img src="images/bedoctor-icon-pin.svg" alt="img" />
+              </div>
+              <h3 class="custom-h3 w-75 mx-auto pt-5 pb-4 py-md-5">
+                Visit our new facility. We're looking forward to seeing you!
+              </h3>
+              <h6>
+                Level 13, 2 Elizabeth St, <br />
+                Melbourne, Victoria 3000, <br />
+                Australia
+              </h6>
+              <a href="#"
+                ><button type="button" class="btn mt-4 mt-md-5 btn-primary">
+                  Book an appointment
+                </button></a
+              >
+            </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- book appointment ends -->
 
-      <div class="row copyright mt-5">    
-          <div class="col-12">               
-              <p class="text-center pt-4 pb-3 py-md-5">Copyright © 2024 All rights reserved || Made with <i class="bi bi-heart-fill"></i> by <span>RAJNISH</span></p> 
-          </div> 
-        </div>         
+    <!-- pricing sec starts -->
+    <section class="pricing-sec custom-margin padding mobile-custom-padd">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h5>PRICING</h5>
+            <h3 class="pt-3 pb-4 pt-md-4 pb-md-5">Choose your health plan</h3>
+            <p class="para mx-auto pb-md-4">
+              Posuere at arcu, felis iaculis tortor mattis id. Eu at in posuere
+              elit. Feugiat at faucibus risus commodo odio.
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-md-4 text-center">
+            <div class="pricing-box bg-white padding">
+              <img src="images/bedoctor-pricing-icon1.svg" alt="icon" />
+              <h5 class="py-4">BASIC</h5>
+              <h3 class="price custom-h3 mx-auto">
+                <sup class="currency">$</sup> 39 <sup class="period">mo</sup>
+              </h3>
+              <div class="py-5">
+                <p>Consultation with doctor</p>
+                <p class="borderP py-3">Laboratory and diagnostic tests</p>
+                <p>Two home visits a year</p>
+              </div>
+              <a href="#"
+                ><button type="button" class="btn mt-2 btn-primary">
+                  Choose
+                </button></a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center pt-5 pt-md-0">
+            <div class="pricing-box bg-white padding">
+              <img src="images/bedoctor-pricing-icon2.svg" alt="icon" />
+              <h5 class="py-4">COMFORT</h5>
+              <h3 class="price custom-h3 mx-auto">
+                <sup class="currency">$</sup> 59 <sup class="period">mo</sup>
+              </h3>
+              <div class="py-5">
+                <p>ALL from BASIC +</p>
+                <p class="borderP py-3">Day and night emergency care</p>
+                <p>Two more home visits a year</p>
+              </div>
+              <a href="#"
+                ><button type="button" class="btn mt-2 btn-primary">
+                  Choose
+                </button></a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center pt-5 pt-md-0">
+            <div class="pricing-box pricing-box-third padding">
+              <img src="images/bedoctor-pricing-icon1.svg" alt="icon" />
+              <h5 class="py-4 text-white">COMPLEX</h5>
+              <h3 class="price custom-h3 mx-auto text-white">
+                <sup class="currency text-white">$</sup> 99
+                <sup class="period text-white">mo</sup>
+              </h3>
+              <div class="py-5">
+                <p class="text-white">All from COMFORT +</p>
+                <p class="borderP py-3 text-white">
+                  Rehabilitation after injury
+                </p>
+                <p class="text-white">Four more home visits a year</p>
+              </div>
+              <a href="#"
+                ><button
+                  type="button"
+                  class="btn mt-2 s-btn price-btn btn-primary"
+                >
+                  Choose
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>                         
-    <!-- footer ends -->     
+    </section>
+    <!-- pricing sec starts -->
 
-    <!-- bootstrap JS -->      
-    <script src="js/bootstrap.bundle.min.js"></script>                      
+    <!-- rating sec starts -->
+    <section class="rating padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/bedoctor-icon2.svg" alt="img" />
+            <h3 class="py-5">Satisfied patients</h3>
+            <h6 class="w-75 rating-p">
+              Ac amet in adipiscing in sed sit eget. Aliquam suspendisse viverra
+              varius lobortis elit velit. Sit vitae a enim mi vitae accumsan.
+              Quam in auctor sed libero lacus. Varius adipiscing ac, commodo,
+              tincidunt.
+            </h6>
+            <p class="fw-semibold pt-4 mb-0">Kristin Watson</p>
+            <p>Jun 27, 2020</p>
+          </div>
+
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="rating-img">
+              <img
+                class="w-100"
+                src="images/bedoctor-packages-pic2.webp"
+                alt="img"
+              />
+              <div class="rating-icon d-flex align-items-center shadow">
+                <div
+                  class="icon-star d-flex justify-content-center align-items-center"
+                >
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="rating-text ps-4">
+                  <h4 class="mb-0">4.9</h4>
+                  <p>Opinions made by our patients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- rating sec starts -->
+
+    <!-- don't-wait-sec starts -->
+    <section
+      class="dont-wait-sec padding custom-margin d-flex align-items-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img class="mb-md-2" src="images/bedoctor-icon4.svg" alt="img" />
+            <h3 class="custom-h3 mx-auto text-white py-5">
+              Don't wait and make an <br class="break" />
+              appointment today
+            </h3>
+            <a href="#"
+              ><button type="button" class="btn s-btn mt-md-3 btn-primary">
+                Book an appointment
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- don't-wait-sec ends -->
+
+    <!-- footer starts -->
+    <footer class="padding pb-0 custom-margin">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-md-5">
+            <img src="images/bedoctor-footer-logo.svg" alt="img" />
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-md-4 text-center text-md-start">
+            <h6>
+              Level 13, 2 Elizabeth St, <br class="break" />
+              Melbourne, Victoria <br class="break" />
+              3000, Australia
+            </h6>
+            <p class="py-4 pt-md-4 pb-md-5">
+              Opening hours: Mon - Sat: 9 AM - 6 PM
+            </p>
+
+            <div
+              class="social pb-2 pb-md-0 d-flex align-items-center justify-content-center justify-content-md-start"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram mx-4 mx-md-5"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center pt-5 pt-md-0">
+            <h6>Contact me</h6>
+            <a href="#">
+              <h3 class="custom-h3 py-4 py-md-5 w-100 mx-auto">
+                +61 (0) 3 8376 6284
+              </h3>
+            </a>
+            <a href="#"
+              ><button type="button" class="btn mb-2 mb-md-0 mt-2 btn-primary">
+                Contact us
+              </button></a
+            >
+          </div>
+
+          <div class="col-md-4 text-center pt-5">
+            <h6>Useful links</h6>
+            <div class="link pt-4 pt-md-5">
+              <a href="#">Contact with us</a><br />
+              <a href="#">Who we are?</a><br />
+              <a href="#">Safety data sheets</a><br />
+              <a href="#">Job application</a><br />
+              <a href="#">Privacy policy</a><br />
+            </div>
+          </div>
+        </div>
+
+        <div class="row copyright mt-5">
+          <div class="col-12">
+            <p class="text-center pt-4 pb-3 py-md-5">
+              Copyright © 2024 All rights reserved || Made with
+              <i class="bi bi-heart-fill"></i> by <span>RAJNISH</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
     <!-- aos js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- initialize aos -->
     <script>
       AOS.init({
-        duration: 500 
+        duration: 500,
       });
     </script>
-    <!-- custom js -->                        
-    <script src="js/script.js"></script>              
+    <!-- custom js -->
+    <script src="js/script.js"></script>
   </body>
-</html>           
+</html>
